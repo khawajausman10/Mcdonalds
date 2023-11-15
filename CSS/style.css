@@ -44,3 +44,27 @@ body {
     width: 1200px;
     margin-left: 120px;
 }
+.insta{
+  height: 35px;
+  width: 35px;
+  border: 1px solid grey;
+  padding: 8px;
+  border-radius: 30px;
+
+}
+.insta:hover{
+  background-color: red;
+
+}
+
+
+@media screen and (max-width: 420px){
+  .cards{
+    /* justify-content: center !important;
+    align-items: center !important;
+    gap: 100px; */
+    margin: 0 auto;
+   
+  }
+
+} 
